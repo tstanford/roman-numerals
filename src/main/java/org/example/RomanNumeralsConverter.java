@@ -1,9 +1,12 @@
 package org.example;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+@Component
 public class RomanNumeralsConverter {
 
     private List<RomanNumeral> numerals;
